@@ -1,31 +1,61 @@
+<!-- TODO1: Crie uma formatação inline da cor azul em um novo marcador <h1>-->
+
+<!-- TODO2a: Crie uma formatacao da cor azul com o marcador <style> no cabecalho <head>. -->
+<!-- TODO2b: Aplique a formatação anterior em um novo marcador <h1>. -->
+
+<!-- TODO3a: Crie uma formatação especifica '#verde' no arquivo CSS -->
+<!-- TODO3b: Aplique a formatação anterior em um novo marcador <h1>. -->
+
+<!-- TODO4a: Crie uma formatação de classe '.vermelho' no arquivo CSS -->
+<!-- TODO4b: Aplique a formatação anterior em um novo marcador <h1>. -->
+<!-- TODO4c: Aplique a formatação anterior em um novo marcador <h3>. -->
+
 <!DOCTYPE html>
 <html lang="bzs">
+
 <head>
-<meta charset="UTF-8">
-<title>Comércio Eletrônico</title>
-<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<meta charset="UTF-8">
+	<title>Comércio Eletrônico</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" />
+
+	<!-- TODO2a 
+	<style>
+		#azul {
+			color:blue;
+		}
+	</style>
+-->
+
 </head>
+
 <body>
+
+	<!-- <h1 style="color:blue;">TODO1</h1> -->
+
+	<!-- <h1 id="azul">TODO2B</h1> --> 
+
+	<!-- <h1 id="verde">TODO3B</h1> -->
+
+<!--	<h1 class="vermelho">TODO4B</h1> -->
+	<!-- <h3 class="vermelho">TODO4C</h3> -->
 
 	<h1 class="negrito">webaula1ex8</h1>
 
 	<!-- input radio -->
 	<form action="pagina3.html" method="post" style="border: outset">
 		<h3>Forma de pagamento:</h3>
-		<input type="radio" name="pix" value="pix" checked />PIX<br> <input
-			type="radio" name="cartao" value="cartao" />Cartão<br> <input
-			type="radio" name="dinheiro" value="dinheiro" />Dinheiro<br>
+		<input type="radio" name="pix" value="pix" checked />PIX<br> <input type="radio" name="cartao"
+			value="cartao" />Cartão<br> <input type="radio" name="dinheiro" value="dinheiro" />Dinheiro<br>
 
 		<!-- input checkbox -->
 		<h3>Recibo:</h3>
-		<input type="checkbox" name="papel" value="papel" />Papel<br> <input
-			type="checkbox" name="cartao" value="cartao" />Cartao<br> <input
-			type="checkbox" name="dinheiro" value="dinheiro" />Dinheiro<br>
+		<input type="checkbox" name="papel" value="papel" />Papel<br> <input type="checkbox" name="cartao"
+			value="cartao" />Cartao<br> <input type="checkbox" name="dinheiro" value="dinheiro" />Dinheiro<br>
 
 		<!-- Textarea -->
 		<h3>Feedback:</h3>
 		<textarea rows="3" cols="50" name="mensagem">Digite a sua mensagem</textarea>
-		
+
 		<!-- Select -->
 		<h3>Nota:</h3>
 		<select name="nota">
@@ -33,8 +63,8 @@
 			<option value="1">Médio
 			<option value="2">Ótimo
 		</select>
-		
-		<input type="submit" value="Confirmar"/>
+
+		<input type="submit" value="Confirmar" />
 	</form>
 
 
@@ -42,15 +72,13 @@
 	<h3>HTTP GET</h3>
 	<form action="pagina2.html" method="get" style="border: outset">
 		Nome: <input type="text" name="nome" required autofocus /> <br>
-		Senha: <input type="password" name="senha" required /> <br> <input
-			type="submit" /> <input type="reset" />
+		Senha: <input type="password" name="senha" required /> <br> <input type="submit" /> <input type="reset" />
 	</form>
 
 	<h3>HTTP POST</h3>
 	<form action="pagina2.html" method="post" style="border: outset">
 		Nome: <input type="text" name="nome" required autofocus /> <br>
-		Senha: <input type="password" name="senha" required /> <br> <input
-			type="submit" /> <input type="reset" />
+		Senha: <input type="password" name="senha" required /> <br> <input type="submit" /> <input type="reset" />
 	</form>
 
 	<!-- Divisao de paragrafos: permite formatacao especifica do trecho -->
@@ -104,4 +132,5 @@
 
 	<a href="pagina2.html">Página 2</a>
 </body>
+
 </html>
